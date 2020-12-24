@@ -1,3 +1,28 @@
-/*
- * Приложение Z8 Template не содержит никаких специальных определений стилей CSS
- */
+pre {
+    margin: 0;
+    width: 100%;
+}
+
+pre code {
+    display: block;
+    cursor: text;
+    min-height: 150px;
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+.form .box {
+    flex: initial;
+}
+
+.youtube .box {
+    flex-direction: column;
+}
+
+.youtube input {
+    width: 100%;
+}
+
+.youtube iframe {
+    margin-top: 5px;
+}
